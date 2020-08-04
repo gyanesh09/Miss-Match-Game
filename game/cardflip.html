@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Miss-Match Game</title>
+<link rel="stylesheet" href="gridstyle.css">
+<script src="gamejs.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body onload="load_cards()">
+    <audio id="success">
+        <source src="sounds/success.mp3">
+    </audio>
+    <audio id="won">
+        <source src="sounds/win.mp3">
+    </audio>
+    <audio id="startup">
+        <source src="sounds/startup.mp3">
+    </audio>
+    <audio id="wrong-move">
+        <source src="sounds/wrong-move.mp3">
+    </audio>
+
+    
+    <div  style='display:grid;grid-template-columns:0.23fr 0.57fr 0.20fr' >
+        <div id="score"><br><br><br><br><br><br><span><h1>Miss-Match Game</h1><br></span>SCORE - <span id="updatedscore" style="font-size: 60px;"> 0/12 </span> </div>
+        <div class="grid">    
+        </div>
+
+        <div id="timer">
+            01:00
+        </div>
+
+    </div>
+</body>
+

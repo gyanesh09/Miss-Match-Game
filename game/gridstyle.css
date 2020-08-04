@@ -1,0 +1,46 @@
+body{
+    background-image:linear-gradient(brown,gold);
+    font-family: 'Creepster';
+}
+
+h1{
+    text-align: center;
+    font-size:60px
+
+}
+.grid{
+    padding-top:20px;
+    display:flex;
+    flex-wrap:wrap;
+    height:110%;
+    width:86%;
+    text-align: center;
+    margin-left:4%;
+    margin-top:5%;
+    background-image:linear-gradient(rgb(139, 67, 0),rgb(24, 13, 13));
+    padding-left:50px;
+    border-radius:15px;
+    box-shadow: 5px 5px 5px 5px rgb(70, 35, 13);
+}
+.grid > img{
+    margin:10px;
+}
+
+#score{
+    font-size: 30px;
+    text-align: center;
+}
+
+.cardimg{
+    border:1px solid black;
+    box-shadow: 5px 5px 5px 5px;
+       
+    height:150px;
+    width:150px;
+}
+
+#timer{
+    margin-top:100%;
+    font-size:120px;
+    text-align: center;
+}
